@@ -1,0 +1,26 @@
+# Ignore Ruby/Bundler specific files
+*.gem
+*.rbc
+.bundle
+vendor/
+coverage/
+pkg/
+tmp/
+log/
+
+# Ignore system/editor files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*~
+.idea/
+.vscode/
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore node modules (if you add JS later)
+node_modules/
+
