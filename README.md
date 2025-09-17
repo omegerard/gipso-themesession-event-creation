@@ -11,6 +11,10 @@ A Discourse plugin that extends the [discourse-calendar](https://meta.discourse.
   - Grants the group access to the category.
   - Creates a first “Welcome” post in the new category.
 
+## Attention
+
+The value for participants_group_name is not saved when you create an event (bug in discourse?). You need to edit the event and fill in the participants_group_name custom field.
+
 ## Installation
 Clone into your Discourse `plugins/` directory:
 
